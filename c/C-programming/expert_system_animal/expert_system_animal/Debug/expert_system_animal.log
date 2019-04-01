@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\program\my_git\c\c-programming\expert_system_animal\expert_system_animal\main.cpp(44): error C2660: “strcpy_s”: 函数不接受 2 个参数
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(28): note: 参见“strcpy_s”的声明
+d:\program\my_git\c\c-programming\expert_system_animal\expert_system_animal\main.cpp(115): error C2660: “strcpy_s”: 函数不接受 2 个参数
+  d:\windows kits\10\include\10.0.17763.0\ucrt\string.h(28): note: 参见“strcpy_s”的声明
+d:\program\my_git\c\c-programming\expert_system_animal\expert_system_animal\main.cpp(146): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+d:\program\my_git\c\c-programming\expert_system_animal\expert_system_animal\main.cpp(161): error C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _flushall. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2460): note: 参见“flushall”的声明
