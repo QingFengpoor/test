@@ -37,19 +37,6 @@ struct mytable
 }*Oend,*Cend,*rcend;
 
 
-void correct(mytable* &position,int d) {
-	mytable* father = new mytable; father = position;
-	mytable* temp = new mytable; temp = position;
-	position->f = d;
-	do {
-		if (position->next == NULL) {
-			break;
-		}
-		if (position->f > position->next->f);
-		position = position->next;
-	} while (position != NULL);
-}
-
 //判断重复状态
 bool isrepead(S t, mytable *rh) {
 	mytable *h = new mytable;
@@ -113,7 +100,7 @@ void kuozhan(S op0[],S op1[],mytable* &Ohead,mytable* &Cend,mytable *rchead,myta
 	}
 	//船在右岸，开向左岸
 	if (cn->o.b == 0) {
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 9; i++) {
 			S temp = cn->o;
 			if ((M-cn->o.p >= op1[i].p)&&(M-cn->o.w >= op1[i].w)) {
 				temp.p = temp.p + op1[i].p;
@@ -184,11 +171,16 @@ int main()
 	operates_to0[6] = { 1,1,1 };
 	operates_to0[7] = { 0,1,1 };
 	operates_to0[8] = { 1,0,1 };
-	S operates_to1[4];//b=0时，回左岸｛1,0,0｝，｛0，1，0｝,{2,0,0},{0,2,0}
+	S operates_to1[9];//b=0时，回左岸｛1,0,0｝，｛0，1，0｝,{2,0,0},{0,2,0}，｛3,0,0｝，｛0,3,0｝，｛1,1,0｝，｛2,1,0｝，｛1,2,0｝
 	operates_to1[0] = { 1,0,0 };
 	operates_to1[1] = { 0,1,0 };
 	operates_to1[2] = { 2,0,0 };
 	operates_to1[3] = { 0,2,0 };
+	operates_to1[4] = { 3,0,0 };
+	operates_to1[5] = { 0,3,0 };
+	operates_to1[6] = { 1,1,0 };
+	operates_to1[7] = { 2,1,0 };
+	operates_to1[8] = { 1,2,0 };
 	mytable *O_head=new mytable;
 	O_head->o = start; O_head->father = NULL; O_head->next = NULL; O_head->d = 0; O_head->f = 0;
 	Oend = O_head;
@@ -212,24 +204,25 @@ int main()
 	if (flag) {
 		std::cout << "无解" << endl;
 	}
-	else std::cout << "有解" << endl;
-	/*else
+	else
 	{
-		mytable* answer_head = new mytable;
-		answer_head = O_head;
 		mytable* answer_end = new mytable;
 		answer_end = O_head;
-		while (answer_head->father != NULL) {
-			answer_head->next = answer_head;
-			answer_head = answer_head->father;
+		answer_end->next = NULL;
+		while (answer_end->father != NULL) {
+			mytable* t = new mytable;
+			t->o.b = answer_end->o.b; t->o.p = answer_end->o.p; t->o.w = answer_end->o.w;
+			t->next = answer_end->next;
+			answer_end = answer_end->father;
+			answer_end->next = t;
 		}
 		mytable* answer = new mytable;
-		answer = answer_head;
+		answer = answer_end;
 		while (answer != NULL) {
 			cout <<'('<< answer->o.p << ',' << answer->o.w << ',' << answer->o.b << ')' << endl;
 			answer = answer->next;
 		}
-	}*/
+	}
 	system("pause");
 }
 
