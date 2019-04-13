@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89541be1-f6f3-47c0-91eb-019c4f60083f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/HAC/.vs/HAC/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/HAC/.vs/HAC/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/HAC/.vs/HAC/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/HAC/.vs/HAC/v15/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/K-means/.vs/K-means/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/K-means/.vs/K-means/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/K-means/.vs/K-means/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/K-means/.vs/K-means/v15/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/ipch/e67ccb1c0e71e3f3.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/.vs/chuanjiaoshi_xingsuanfa/v15/ipch/e67ccb1c0e71e3f3.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa/Debug/chuanjia.4D7373A7.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa/Debug/chuanjia.4D7373A7.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa/chuanjiaoshi_xingsuanfa.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="340">
               <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
               <folding>
                 <element signature="e#26#44#0" expanded="true" />
@@ -44,8 +41,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="57" />
+    <option name="x" value="56" />
+    <option name="y" value="56" />
     <option name="width" value="1750" />
     <option name="height" value="940" />
   </component>
@@ -120,14 +117,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="46" width="1400" height="752" extended-state="0" />
+    <frame x="45" y="45" width="1400" height="752" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32741934" />
@@ -135,6 +128,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -150,7 +147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="340">
           <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
           <folding>
             <element signature="e#26#44#0" expanded="true" />

@@ -73,10 +73,12 @@ void inserttable(mytable *&head, mytable *n) {
 void kuozhan(S op0[],S op1[],mytable* &Ohead,mytable* &Cend,mytable *rchead,mytable *&rcend) {
 	//在扩展前，修正open表。将首结点的启发函数值修改为f(x)=d,并排序Open表
 	//取出open首结点;放到close中
-	mytable *cn = new mytable;
-	cn->d = Ohead->d; cn->f = Ohead->f; cn->o = Ohead->o;
-	cn->father = Ohead->father;
-	cn->next = NULL;
+	mytable *cn = new mytable,*rn=new mytable;
+	//cn->d = Ohead->d; cn->f = Ohead->f; cn->o = Ohead->o;
+	//cn->father = Ohead->father;
+	//cn->next = NULL;
+	*cn = { Ohead->father,Ohead->o,Ohead->d,Ohead->f,NULL };
+	*rn = { Ohead->father,Ohead->o,Ohead->d,Ohead->f,NULL };
 	//船在左岸，开向右岸
 	if (cn->o.b == 1) {
 		for (int i = 0; i < 9; i++) {
@@ -93,6 +95,10 @@ void kuozhan(S op0[],S op1[],mytable* &Ohead,mytable* &Cend,mytable *rchead,myta
 					mytable *no = new mytable;
 					*no = { cn,temp,t,ff(t,fh(temp)),NULL };
 					inserttable(Ohead, no);//把扩展结点放到Open表中
+					mytable *nr = new mytable;
+					*nr = { cn,temp,t,ff(t,fh(temp)),NULL };
+					rcend->next = nr;
+					rcend = rcend->next;
 				}
 				
 			}
@@ -114,6 +120,10 @@ void kuozhan(S op0[],S op1[],mytable* &Ohead,mytable* &Cend,mytable *rchead,myta
 					mytable* no = new mytable;
 					*no = { cn,temp,t,ff(t,fh(temp)),NULL };
 					inserttable(Ohead, no);//把扩展结点放到Open表中
+					mytable *nr = new mytable;
+					*nr = { cn,temp,t,ff(t,fh(temp)),NULL };
+					rcend->next = nr;
+					rcend = rcend->next;
 				}
 			}
 		}
@@ -126,8 +136,8 @@ void kuozhan(S op0[],S op1[],mytable* &Ohead,mytable* &Cend,mytable *rchead,myta
 	std::cout << "*****************************" << endl;
 
 	Ohead = Ohead->next;
-	Cend->next = cn; rcend->next = cn;
-	Cend = cn; rcend = cn;
+	Cend->next = cn; rcend->next = rn;
+	Cend = cn; rcend = rn;
 }
 
 void outt(mytable* Oposition,mytable* Cposition) {

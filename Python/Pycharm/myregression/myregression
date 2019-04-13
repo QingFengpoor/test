@@ -1,0 +1,36 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+Salary_Data = pd.read_csv('Salary_Data.csv')
+
+
+def clean_auto_data(salary_data):
+    'Function to load the auto price data set from a .csv file'
+    import pandas as pd
+    import numpy as np
+
+    ## Recode names
+    ## fix column names so the '-' character becomes '_'
+    cols = salary_data.columns
+    salary_data.columns = [str.replace('-', '_') for str in cols]
+
+    ## Treat missing values
+    ## Remove rows with missing values, accounting for mising values coded as '?'
+    #cols = ['price', 'bore', 'stroke',
+          #'horsepower', 'peak_rpm']
+    #for column in cols:
+        #auto_prices.loc[auto_prices[column] == '?', column] = np.nan
+    #auto_prices.dropna(axis = 0, inplace = True)
+
+    ## Transform column data type
+    ## Convert some columns to numeric values
+    for column in cols:
+        salary_data[column] = pd.to_numeric(salary_data[column])
+
+    return salary_data
+Salary_Data = clean_auto_data(Salary_Data)
+
+print(Salary_Data.columns)
+
