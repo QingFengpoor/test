@@ -1,21 +1,25 @@
 ﻿## 转载自：https://www.cnblogs.com/lynsyklate/p/7881300.html
 
 import cv2 
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
+matplotlib.rcParams['font.sans-serif'] = ['SimHei']
+matplotlib.rcParams['font.family']='sans-serif'
+
 plt.subplot(121)
 plt.title("origin")
 saber=cv2.imread("saber.png")
-print(saber.shape)
+##print(saber.shape)
 saber=cv2.cvtColor(saber,cv2.COLOR_BGR2RGB)
 plt.imshow(saber)
 plt.axis("off")
 
 gray_saber=cv2.cvtColor(saber,cv2.COLOR_BGR2GRAY)
 gray_saber=cv2.resize(gray_saber,(200,200))
-print(gray_saber.shape)
+##print(gray_saber.shape)
 
 ##Robert算子
 def RobertsOperator(roi):
@@ -31,7 +35,7 @@ def RobertsAlogrithm(image):
     return image[1:image.shape[0],1:image.shape[1]]
 
 Robert_saber=RobertsAlogrithm(gray_saber)
-print(Robert_saber.shape)
+##print(Robert_saber.shape)
 plt.subplot(122)
 plt.title("Robert")
 plt.imshow(Robert_saber,cmap="binary")
@@ -76,18 +80,18 @@ def noisy(noise_type,image):
         print('noise_type=="gauss"||"s&p"||"poisson"||"speckle"')
 
 dst=noisy("s&p",saber)
-print(dst.shape)
+##print(dst.shape)
 plt.subplot(121)
 plt.title("add s&p noise")
 plt.axis("off")
 plt.imshow(dst)
 plt.subplot(122)
 dst=cv2.cvtColor(dst,cv2.COLOR_RGB2GRAY)
-print(dst.shape)
+##print(dst.shape)
 plt.title("Robert Process")
 plt.axis("off")
 dst=RobertsAlogrithm(dst)
-print(dst.shape)
+##print(dst.shape)
 plt.imshow(dst,cmap="binary")
 plt.show()
 
@@ -129,24 +133,29 @@ plt.axis("off")
 plt.imshow(dst)
 
 plt.subplot(132)
-plt.title("Prewitt Process horizontal")
+plt.title("Prewitt horizontal")
 plt.axis("off")
 plt.imshow(PreWittAlogrithm(gray_saber,"horizontal"),cmap="binary")
 
 plt.subplot(133)
-plt.title("Prewitt Process Vertical")
+plt.title("Prewitt Vertical")
 plt.axis("off")
 plt.imshow(PreWittAlogrithm(gray_saber,"vertical"),cmap="binary")
 plt.show()
 
 ##Sobel算子
 def SobelOperator(roi,operator_type):
-    if operator_type=="borizontal":
+    if operator_type=="horizontal":
         sobel_operator=np.array([[-1,-2,-1],[0,0,0],[1,2,1]])
     elif operator_type=="vertical":
         sobel_operator=np.array([[-1,0,1],[-2,0,2],[-1,0,1]])
     else:
-        raise("type Error")
+        try:
+            raise Exception("raise Exception")
+        except Exception:
+            print("raise an exception here")
+            raise
+
     result=np.abs(np.sum(roi*sobel_operator))
     return result
 
@@ -228,19 +237,20 @@ plt.show()
 Gx=SobelAlogrithm(smooth_saber,"horizontal")
 Gy=SobelAlogrithm(smooth_saber,"vertical")
 
-G=np.sqrt(np.square(Gx.astype(np._float64_ma))+np.square(Gy.astype(np.float64)))
-cita=np.arctan2(Gy.astype(np.float64),Gx.astype(np._float64_ma))
-plt.imshow(GridSpec.astype(np.uint8),cmap="gray")
+G=np.sqrt(np.square(Gx.astype(np.float64))+np.square(Gy.astype(np.float64)))
+cita=np.arctan2(Gy.astype(np.float64),Gx.astype(np.float64))
+plt.imshow(G.astype(np.uint8),cmap="gray")
+plt.title("计算梯度幅值和方向")
 plt.axis("off")
 plt.show()
 
 ##非极大值算法(抑制)
 def NonmaximumSuppression(image,cita):
-    keep=np.zeros(english_capitalize.shape)
+    keep=np.zeros(cita.shape)
     cita=np.abs(cv2.copyMakeBorder(cita,1,1,1,1,cv2.BORDER_DEFAULT))
-    for i in range(1,cbytes_iterator.shape[0]-1):
-        for j in range(1,cbytes_iterator.shape[1]-1):
-            if cita[i][j]>cita[i-1][j] and cita[i][j]>callable_iterator[i+1][j]:
+    for i in range(1,cita.shape[0]-1):
+        for j in range(1,cita.shape[1]-1):
+            if cita[i][j]>cita[i-1][j] and cita[i][j]>cita[i+1][j]:
                 keep[i-1][j-1]=1
             elif cita[i][j]>cita[i][j+1] and cita[i][j]>cita[i][j-1]:
                 keep[i-1][j-1]=1
@@ -254,7 +264,7 @@ def NonmaximumSuppression(image,cita):
 nms_image=NonmaximumSuppression(G,cita)
 nms_image=(nms_image*(255/np.max(nms_image))).astype(np.uint8)
 
-plt.imshow(nms_image,get_cmap="gray")
+plt.imshow(nms_image,cmap="gray")
 plt.axis("off")
 plt.show()
 
