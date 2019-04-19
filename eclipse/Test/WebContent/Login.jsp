@@ -5,9 +5,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>欢迎登录☺</title>
+<link rel="stylesheet" href="css/2.css">
 </head>
 <body>
+	<div class="header">
+		<div class="zhishiku">
+			<p class="zsk">知识库管理系统</p>
+		</div>
+		<div class="xhx">
+		</div>
+	</div>
 <%
 	String URL="jdbc:sqlserver://127.0.0.1:1433;databaseName=test";
 	Connection con=null;
