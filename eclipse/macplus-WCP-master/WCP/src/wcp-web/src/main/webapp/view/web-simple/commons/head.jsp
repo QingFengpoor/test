@@ -16,7 +16,7 @@
 			style="color: #ffffff; font-weight: bold; padding: 5px;"
 			href="<DOC:defaultIndexPage/>"> <img
 			src="<PF:basePath/>/text/img/logo.png" height="40" alt="WCP"
-			title="WCP" align="middle" />
+			title="JN" align="middle" />
 		</a>
 	</div>
 	<!-- Collect the nav links, forms, and other content for toggling -->

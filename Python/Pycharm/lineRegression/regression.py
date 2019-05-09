@@ -41,7 +41,7 @@ figure=plt.subplot(211)
 plt.scatter(X_train,Y_train,color='red')
 plt.plot(X_train,predict,color='black')
 plt.scatter(X_train, t1, color='pink')
-plt.legend(['origin data','linear','offset'])
+plt.legend(['linear','origin data','offset'])#优先表示plot作图
 plt.xlabel('YearsExperience')
 plt.ylabel('Salary')
 plt.title('Train set')

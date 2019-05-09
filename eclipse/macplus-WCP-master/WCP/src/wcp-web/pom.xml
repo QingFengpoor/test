@@ -21,7 +21,7 @@
 			<groupId>com.farm</groupId>
 			<artifactId>farm-core</artifactId>
 			<version>${wcp.version}</version>
-			<exclusions>
+			<exclusions><!-- exclusions 表示排除此依赖项中的这个部分 -->
 				<exclusion>
 					<groupId>javax.servlet.jsp</groupId>
 					<artifactId>jsp-api</artifactId>
