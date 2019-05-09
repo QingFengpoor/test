@@ -1,0 +1,4 @@
+﻿  1-2.cpp
+D:\Program\My_Git\c\C++-programming\os-ex1-2\1-2.cpp(94): warning C4101: “pre”: 未引用的局部变量
+D:\Program\My_Git\c\C++-programming\os-ex1-2\1-2.cpp(94): warning C4101: “temp”: 未引用的局部变量
+  os-ex1-2.vcxproj -> D:\Program\My_Git\c\C++-programming\os-ex1-2\Debug\os-ex1-2.exe

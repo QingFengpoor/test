@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jinchengdiaodu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\084\AppData\Local\Temp\RSP3185.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/jinchengdiaodu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\084\Desktop\jinchengdiaodu\jinchengdiaodu.cpp"
+]
+Creating command line "cl.exe @C:\Users\084\AppData\Local\Temp\RSP3185.tmp" 
+<h3>Output Window</h3>
+Compiling...
+jinchengdiaodu.cpp
+c:\users\084\desktop\jinchengdiaodu\jinchengdiaodu.cpp(149) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+jinchengdiaodu.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
