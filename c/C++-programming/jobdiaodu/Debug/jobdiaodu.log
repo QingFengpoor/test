@@ -1,0 +1,6 @@
+﻿  jobdiaodu.cpp
+D:\Program\My_Git\c\C++-programming\jobdiaodu\jobdiaodu.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+D:\Program\My_Git\c\C++-programming\jobdiaodu\jobdiaodu.cpp(123): warning C4018: “<”: 有符号/无符号不匹配
+D:\Program\My_Git\c\C++-programming\jobdiaodu\jobdiaodu.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+D:\Program\My_Git\c\C++-programming\jobdiaodu\jobdiaodu.cpp(63): warning C4715: “JCB::operator>”: 不是所有的控件路径都返回值
+  jobdiaodu.vcxproj -> D:\Program\My_Git\c\C++-programming\jobdiaodu\Debug\jobdiaodu.exe

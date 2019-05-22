@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d62f2f0-9dcb-4153-be74-dc6d78a2a608" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../QT/Demo/Demo.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/Demo/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/Demo/mainwindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/Demo/mainwindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/Demo/mainwindow.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/NEW/NEW.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/NEW/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/NEW/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/NEW/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/NEW/widget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/samp2_1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/samp2_1/samp2_1.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/samp2_1/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/samp2_1/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/samp2_1/widget.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lineRegression/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lineRegression/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lineRegression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lineRegression/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lineRegression/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lineRegression/regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/resources/webapp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/resources/webapp.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/view/web-simple/commons/foot.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/view/web-simple/commons/foot.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/view/web-simple/commons/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../eclipse/macplus-WCP-master/WCP/src/wcp-web/src/main/webapp/view/web-simple/commons/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fromwebHC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myHC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/jinchengdiaodu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/SK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/child_contentor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/close_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/image_cv2toTK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/mouse_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SK/text_scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../QT/123/123.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../QT/123/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HC.py" beforeDir="false" afterPath="$PROJECT_DIR$/HC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/Browse.VC.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="456">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -46,7 +50,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fromwebHC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/a1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>show</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -54,15 +95,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/myHC.py" />
         <option value="$PROJECT_DIR$/HC.py" />
+        <option value="$PROJECT_DIR$/fromwebHC.py" />
+        <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/a1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="505" />
-    <option name="y" value="105" />
-    <option name="width" value="1385" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="330" />
+    <option name="y" value="37" />
+    <option name="width" value="1305" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -70,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,9 +126,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -107,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.a1">
     <configuration name="HC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,9 +175,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="a1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fromwebHC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fromwebHC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myHC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myHC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a1" />
+        <item itemvalue="Python.analysis" />
+        <item itemvalue="Python.fromwebHC" />
         <item itemvalue="Python.HC" />
+        <item itemvalue="Python.myHC" />
       </list>
     </recent_temporary>
   </component>
@@ -139,46 +273,114 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="264" y="30" width="1044" height="624" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25627476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2804878" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22237961" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="675" height="638" id="Documentation" order="3" visible="true" weight="0.3297587" />
-      <window_info anchor="right" id="Debug" order="4" weight="0.59517425" />
+      <window_info anchor="right" x="0" y="0" width="675" height="638" id="Documentation" order="3" weight="0.40977713" />
+      <window_info anchor="right" id="Debug" order="4" weight="0.50603217" />
+      <window_info anchor="right" id="Run" order="5" weight="0.37296748" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用pycharm提交 和第几次用pycharm提交 pycharm-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="用pycharm提交 和第几次用pycharm提交 pycharm-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HC.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/myHC.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HC.py">
+    <entry file="file://$PROJECT_DIR$/fromwebHC" />
+    <entry file="file://$PROJECT_DIR$/../lineRegression/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Regression/Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lineRegression/yuan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myHC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fromwebHC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

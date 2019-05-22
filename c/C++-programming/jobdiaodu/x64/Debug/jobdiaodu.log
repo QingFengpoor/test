@@ -1,0 +1,3 @@
+﻿  jobdiaodu.cpp
+D:\Program\My_Git\c\C++-programming\jobdiaodu\jobdiaodu.cpp(63): warning C4715: “JCB::operator<”: 不是所有的控件路径都返回值
+  jobdiaodu.vcxproj -> D:\Program\My_Git\c\C++-programming\jobdiaodu\x64\Debug\jobdiaodu.exe
