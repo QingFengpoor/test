@@ -1,5 +1,6 @@
 from tkinter import *
-from pythonTK_test import *
+from ex1 import *
+from ex2 import *
 from PIL import Image,ImageTk
 
 tf=Tk()
@@ -17,7 +18,7 @@ tf.title("操作系统实验")
 button1=Button(tf,text="实验一 进程调度实验-简单轮转法",font=("宋体",14),command=main)
 #button1.grid(row=0,column=0)
 button1.pack()
-button2=Button(tf,text="实验二 作业调度实验-单道处理系统",font=("宋体",14))
+button2=Button(tf,text="实验二 作业调度实验-单道处理系统",font=("宋体",14),command=main)
 #button2.grid(row=2,column=0)
 button2.pack()
 tf.mainloop()

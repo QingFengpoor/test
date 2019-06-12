@@ -106,8 +106,8 @@ class BP:
             # 向前传播
             x_output_out, x_output_in, x_hidden_out, x_hidden_in = self.forward(X_data)
             if np.sum(abs(x_output_out - y_data)) < self.epsilon:
-                print(step)
                 break
+            '''
             # 误差反向传播，依据权值逐层计算当层误差
             err_output = y_data - x_output_out  # n*o， 输出层上，每个神经元上的误差
             delta_ho = -err_output * self.diff_inspirit(self.f_output)(x_output_in)  # n*o
@@ -123,6 +123,23 @@ class BP:
             self.bih -= delta_bih
             delta_wih = self.eta * X_data.T @ delta_ih + self.alpha * delta_wih
             self.wih -= delta_wih
+            '''
+            #误差反向传播，修改误差函数为交叉熵函数
+            delta_ho=x_output_out-y_data
+            err_hidden = delta_ho @ self.who.T  # n*h， 隐藏层（相当于输入层的输出），每个神经元上的误差
+            # 隐藏层到输出层权值及阈值更新
+            delta_bho = np.sum(self.eta * delta_ho + self.alpha * delta_bho, axis=0) / self.N
+            self.bho -= delta_bho
+            delta_who = self.eta * x_hidden_out.T @ delta_ho + self.alpha * delta_who
+            self.who -= delta_who
+            # 输入层到隐藏层权值及阈值的更新
+            delta_ih = err_hidden * self.diff_inspirit(self.f_hidden)(x_hidden_in)  # n*h
+            delta_bih = np.sum(self.eta * delta_ih + self.alpha * delta_bih, axis=0) / self.N
+            self.bih -= delta_bih
+            delta_wih = self.eta * X_data.T @ delta_ih + self.alpha * delta_wih
+            self.wih -= delta_wih
+
+
         return
 
     def predict(self, X):

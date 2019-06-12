@@ -23,6 +23,8 @@ nn=NeuralNetwork([64,100,10])
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y)
 labels_train = LabelBinarizer().fit_transform(Y_train)
 labels_test = LabelBinarizer().fit_transform(Y_test)
+print(X_train.shape)
+print(labels_train.shape)
 print("start fitting")
 nn.fit(X_train,labels_train,epochs=3000)
 prdictions=[]
@@ -30,6 +32,8 @@ for i in range(X_test.shape[0]):
     #print(X_test[i])
     o=nn.predict(X_test[i])
     prdictions.append(np.argmax(o))  #最大的概率对应的那个数
+print(Y_test)
+print(prdictions)
 #print(Y_test,prdictions)
 print(confusion_matrix(Y_test,prdictions))
 print(classification_report(Y_test,prdictions))

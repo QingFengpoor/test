@@ -2,42 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52187a58-6587-48b8-99e7-a6e78852c041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AI_BP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HC/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HC/fromwebHC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HC/myHC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/jinchengdiaodu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/jobTK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/pythonTK_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/timeslice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OS_Experiences/timesliceTK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/SK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/child_contentor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/close_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/image_cv2toTK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/mouse_position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SK/text_scroll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/123/123.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/123/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../QT/123/widget.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HC/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HC/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HC/HC.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HC/HC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-1/.vs/os-ex1-1/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/C++-programming/os-ex1-2/.vs/os-ex1-2/v16/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8Opencv/9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/bankertest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/ex4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OS_Experiences/ex5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-ex1/cv-ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/Digit_Identify_BP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1/Digit_Identify_BP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex2/BP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex2/BP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex2/BP_Train_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex2/BP_Train_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/jobTK.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/pythonTK_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS_Experiences/storageTK.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OS_Experiences/ex3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SK/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-ex1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/LutImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-ex1/LutImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/cv-ex1-cv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-ex1/cv-ex1-cv2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/cv-ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-ex1/cv-ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-ex1/zyz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../边缘检测/.vs/边缘检测/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../边缘检测/.vs/边缘检测/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../边缘检测/边缘检测/边缘检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../边缘检测/边缘检测/边缘检测.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ex2/BP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+            <state relative-caret-position="342">
+              <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -59,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ex2/BP_Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="-372">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -74,15 +72,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Ex1/Digit_Identify_BP.py" />
-        <option value="$PROJECT_DIR$/Ex2/BP_Train_Test.py" />
         <option value="$PROJECT_DIR$/Ex2/BP.py" />
+        <option value="$PROJECT_DIR$/Ex2/BP_Train_Test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="906" />
-    <option name="width" value="1025" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="566" />
+    <option name="y" value="61" />
+    <option name="width" value="1125" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,11 +96,6 @@
             <path>
               <item name="AI_BP" type="b2602c69:ProjectViewProjectNode" />
               <item name="AI_BP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AI_BP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AI_BP" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI_BP" type="b2602c69:ProjectViewProjectNode" />
@@ -253,10 +247,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.BP_Train_Test" />
-        <item itemvalue="Python.BP" />
         <item itemvalue="Python.Digit_Identify_BP" />
-        <item itemvalue="Python.BP2" />
         <item itemvalue="Python.Logic_BP" />
+        <item itemvalue="Python.BP" />
+        <item itemvalue="Python.BP2" />
       </list>
     </recent_temporary>
   </component>
@@ -264,15 +258,15 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="0" width="820" height="831" extended-state="0" />
+    <frame x="453" y="49" width="900" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24904214" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25724217" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32542372" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,21 +279,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24904214" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3299712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ex1/NeuralNetwork.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ex1/Logic_BP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#107#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ex3/BP2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -307,27 +307,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ex1/Logic_BP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#107#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex1/NeuralNetwork.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ex1/Digit_Identify_BP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="500">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#107#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex2/BP.py">
+    <entry file="file://$PROJECT_DIR$/Ex2/BP_Train_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+        <state relative-caret-position="-372">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex2/BP_Train_Test.py">
+    <entry file="file://$PROJECT_DIR$/Ex2/BP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="342">
+          <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
         </state>
       </provider>
     </entry>

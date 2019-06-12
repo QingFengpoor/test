@@ -169,11 +169,11 @@ def SobelAlogrithm(image,operator_type):
     return new_image.astype(np.uint8)
 
 plt.subplot(121)
-plt.title("horizontal")
+plt.title("Sobel horizontal")
 plt.imshow(SobelAlogrithm(gray_saber,"horizontal"),cmap="binary")
 plt.axis("off")
 plt.subplot(122)
-plt.title("vertical")
+plt.title("Sobel vertical")
 plt.imshow(SobelAlogrithm(gray_saber,"vertical"),cmap="binary")
 plt.axis("off")
 plt.show()
@@ -237,10 +237,11 @@ plt.show()
 Gx=SobelAlogrithm(smooth_saber,"horizontal")
 Gy=SobelAlogrithm(smooth_saber,"vertical")
 
+
 G=np.sqrt(np.square(Gx.astype(np.float64))+np.square(Gy.astype(np.float64)))
 cita=np.arctan2(Gy.astype(np.float64),Gx.astype(np.float64))
 plt.imshow(G.astype(np.uint8),cmap="gray")
-plt.title("计算梯度幅值和方向")
+plt.title("梯度检测")
 plt.axis("off")
 plt.show()
 

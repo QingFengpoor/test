@@ -1,7 +1,7 @@
 from skimage import data,exposure
 import matplotlib.pyplot as plt
 #img=data.moon()
-img=plt.imread("zyz.jpg")
+img=plt.imread("img.jpg")
 plt.figure("hist",figsize=(8,8))
 
 arr=img.flatten()

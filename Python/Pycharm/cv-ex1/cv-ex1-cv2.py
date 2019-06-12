@@ -8,7 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-image = cv2.imread("zyz.jpg", 0)
+image = cv2.imread("img.jpg",0)
+#image=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
 
 lut = np.zeros(256, dtype = image.dtype )#创建空的查找表
 
@@ -21,10 +22,9 @@ hist= cv2.calcHist([image], #计算图像的直方图
     [256], #it is a 1D histogram
 
     [0.0,255.0])
-
+plt.imshow(image)
 plt.figure("hist")
-plt.hist(hist, bins=256, normed=1,edgecolor='None',facecolor='red')
-plt.show()
+plt.hist(hist, bins=256, density=1,edgecolor='None',facecolor='red')
 minBinNo, maxBinNo = 0, 255
 
 
@@ -76,9 +76,13 @@ for i,v in enumerate(lut):
 
 #计算
 result = cv2.LUT(image, lut)
+hist2= cv2.calcHist([image],[0], None, [256], [0.0,255.0])
+
 
 cv2.imshow("Result", result)
-
+plt.figure("hist2")
+plt.hist(hist2, bins=256, density=1,edgecolor='None',facecolor='red')
+plt.show()
 cv2.imwrite("LutImage.jpg", result)
 
 cv2.waitKey(0)
